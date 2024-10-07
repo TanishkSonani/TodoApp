@@ -17,7 +17,7 @@ namespace TodoApp
 
         public override string ToString()
         {
-            return $"{Id}. [ {(IsCompleted ? "X" : " ")} ] {Title}";
+            return $"{Id}. [ {(IsCompleted  ? " DONE " : "      ")} ]  {Title} ";
         }
     }
 }
