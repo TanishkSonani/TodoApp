@@ -29,7 +29,7 @@ namespace TodoApp
             return _todoList.ToList();
         }
 
-        public TodoItem? GetTaskById(int id) // Use nullable type to avoid CS8603 warning
+        public TodoItem? GetTaskById(int id) 
         {
             return _todoList.FirstOrDefault(t => t.Id == id);
         }
